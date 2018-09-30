@@ -1,5 +1,5 @@
 """
-WSGI config for S1_G1_Fall2018 project.
+WSGI config for homerun project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'S1_G1_Fall2018.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'homerun.settings')
 
 application = get_wsgi_application()
