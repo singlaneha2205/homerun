@@ -54,7 +54,7 @@ ROOT_URLCONF = 'homerun.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'myapp/templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'myapp/templates/myapp')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
